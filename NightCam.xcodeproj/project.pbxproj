@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		1F0FDF0112E624BF0088FB1B /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FDF0012E624BF0088FB1B /* PreferencesController.m */; };
+		1F246B8A12E5928000CED67D /* Capture_Record_off.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8112E5928000CED67D /* Capture_Record_off.tif */; };
+		1F246B8B12E5928000CED67D /* Capture_Record_on.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8212E5928000CED67D /* Capture_Record_on.tif */; };
+		1F246B8C12E5928000CED67D /* Capture_Forward_off.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8312E5928000CED67D /* Capture_Forward_off.tif */; };
+		1F246B8D12E5928000CED67D /* Capture_Forward_on.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8412E5928000CED67D /* Capture_Forward_on.tif */; };
+		1F246B8E12E5928000CED67D /* Capture_Play_off.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8512E5928000CED67D /* Capture_Play_off.tif */; };
+		1F246B8F12E5928000CED67D /* Capture_Play_on.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8612E5928000CED67D /* Capture_Play_on.tif */; };
+		1F246B9012E5928000CED67D /* Capture_Rewind_off.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8712E5928000CED67D /* Capture_Rewind_off.tif */; };
+		1F246B9112E5928000CED67D /* Capture_Rewind_on.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8812E5928000CED67D /* Capture_Rewind_on.tif */; };
+		1F246B9212E5928000CED67D /* Stop_Normal.tif in Resources */ = {isa = PBXBuildFile; fileRef = 1F246B8912E5928000CED67D /* Stop_Normal.tif */; };
+		1F246C8A12E5A4CA00CED67D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F246C8912E5A4CA00CED67D /* Carbon.framework */; };
+		1F246C8C12E5A4FA00CED67D /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F246C8B12E5A4FA00CED67D /* QuickTime.framework */; };
+		1F246D2A12E5B09700CED67D /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F246D2912E5B09700CED67D /* AppController.m */; };
+		1F29868D12E6718300FC08E1 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F29868C12E6718300FC08E1 /* Config.plist */; };
+		1F33C7FE12E4FD2B00CC48F9 /* ACGamma.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33C7FD12E4FD2B00CC48F9 /* ACGamma.m */; };
+		1F33CA9F12E52B4200CC48F9 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33CA9E12E52B4200CC48F9 /* Config.m */; };
+		1F33CAA712E52F9900CC48F9 /* ConfigGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F33CAA612E52F9900CC48F9 /* ConfigGeneral.m */; };
+		1F5F877512E4FCA800B04B3F /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5F877412E4FCA800B04B3F /* ApplicationServices.framework */; };
+		1FAB04EF12E6448C00AD709B /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1FAB04EE12E6448C00AD709B /* icon.icns */; };
+		1FCDD29612E4D7DC000D81B9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDD29512E4D7DB000D81B9 /* CoreVideo.framework */; };
+		1FCDD2A712E4D805000D81B9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDD2A612E4D805000D81B9 /* IOKit.framework */; };
+		1FCDD2A912E4D813000D81B9 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDD2A812E4D813000D81B9 /* QTKit.framework */; };
+		1FCDD2AE12E4D856000D81B9 /* UVCCameraControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD2AD12E4D856000D81B9 /* UVCCameraControl.m */; };
+		1FCDD2B312E4D943000D81B9 /* NightCamController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDD2B212E4D943000D81B9 /* NightCamController.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F0FDEFF12E624BF0088FB1B /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		1F0FDF0012E624BF0088FB1B /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		1F246B8112E5928000CED67D /* Capture_Record_off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Record_off.tif; sourceTree = "<group>"; };
+		1F246B8212E5928000CED67D /* Capture_Record_on.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Record_on.tif; sourceTree = "<group>"; };
+		1F246B8312E5928000CED67D /* Capture_Forward_off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Forward_off.tif; sourceTree = "<group>"; };
+		1F246B8412E5928000CED67D /* Capture_Forward_on.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Forward_on.tif; sourceTree = "<group>"; };
+		1F246B8512E5928000CED67D /* Capture_Play_off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Play_off.tif; sourceTree = "<group>"; };
+		1F246B8612E5928000CED67D /* Capture_Play_on.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Play_on.tif; sourceTree = "<group>"; };
+		1F246B8712E5928000CED67D /* Capture_Rewind_off.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Rewind_off.tif; sourceTree = "<group>"; };
+		1F246B8812E5928000CED67D /* Capture_Rewind_on.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Capture_Rewind_on.tif; sourceTree = "<group>"; };
+		1F246B8912E5928000CED67D /* Stop_Normal.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Stop_Normal.tif; sourceTree = "<group>"; };
+		1F246C8912E5A4CA00CED67D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		1F246C8B12E5A4FA00CED67D /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		1F246D2812E5B09700CED67D /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1F246D2912E5B09700CED67D /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		1F29868C12E6718300FC08E1 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Config.plist; sourceTree = "<group>"; };
+		1F33C7FC12E4FD2B00CC48F9 /* ACGamma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACGamma.h; sourceTree = "<group>"; };
+		1F33C7FD12E4FD2B00CC48F9 /* ACGamma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACGamma.m; sourceTree = "<group>"; };
+		1F33CA9D12E52B4200CC48F9 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		1F33CA9E12E52B4200CC48F9 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		1F33CAA512E52F9900CC48F9 /* ConfigGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigGeneral.h; sourceTree = "<group>"; };
+		1F33CAA612E52F9900CC48F9 /* ConfigGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigGeneral.m; sourceTree = "<group>"; };
+		1F5F877412E4FCA800B04B3F /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		1FAB04EE12E6448C00AD709B /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		1FCDD29512E4D7DB000D81B9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		1FCDD2A612E4D805000D81B9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		1FCDD2A812E4D813000D81B9 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		1FCDD2AC12E4D856000D81B9 /* UVCCameraControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVCCameraControl.h; sourceTree = "<group>"; };
+		1FCDD2AD12E4D856000D81B9 /* UVCCameraControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVCCameraControl.m; sourceTree = "<group>"; };
+		1FCDD2B112E4D943000D81B9 /* NightCamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightCamController.h; sourceTree = "<group>"; };
+		1FCDD2B212E4D943000D81B9 /* NightCamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NightCamController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* NightCam_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NightCam_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* NightCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				1FCDD29612E4D7DC000D81B9 /* CoreVideo.framework in Frameworks */,
+				1FCDD2A712E4D805000D81B9 /* IOKit.framework in Frameworks */,
+				1FCDD2A912E4D813000D81B9 /* QTKit.framework in Frameworks */,
+				1F5F877512E4FCA800B04B3F /* ApplicationServices.framework in Frameworks */,
+				1F246C8A12E5A4CA00CED67D /* Carbon.framework in Frameworks */,
+				1F246C8C12E5A4FA00CED67D /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F33CAA112E52F7E00CC48F9 /* Config */,
+				1FCDD2AC12E4D856000D81B9 /* UVCCameraControl.h */,
+				1FCDD2AD12E4D856000D81B9 /* UVCCameraControl.m */,
+				1F33C7FC12E4FD2B00CC48F9 /* ACGamma.h */,
+				1F33C7FD12E4FD2B00CC48F9 /* ACGamma.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F246C8B12E5A4FA00CED67D /* QuickTime.framework */,
+				1F246C8912E5A4CA00CED67D /* Carbon.framework */,
+				1F5F877412E4FCA800B04B3F /* ApplicationServices.framework */,
+				1FCDD2A812E4D813000D81B9 /* QTKit.framework */,
+				1FCDD2A612E4D805000D81B9 /* IOKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD29512E4D7DB000D81B9 /* CoreVideo.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* NightCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F33CA7012E521B000CC48F9 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				1FCDD2B112E4D943000D81B9 /* NightCamController.h */,
+				1FCDD2B212E4D943000D81B9 /* NightCamController.m */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				1F246D2812E5B09700CED67D /* AppController.h */,
+				1F246D2912E5B09700CED67D /* AppController.m */,
+				1F0FDEFF12E624BF0088FB1B /* PreferencesController.h */,
+				1F0FDF0012E624BF0088FB1B /* PreferencesController.m */,
+			);
+			name = Windows;
+			sourceTree = "<group>";
+		};
+		1F33CAA112E52F7E00CC48F9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				1F33CA9D12E52B4200CC48F9 /* Config.h */,
+				1F33CA9E12E52B4200CC48F9 /* Config.m */,
+				1F33CAA512E52F9900CC48F9 /* ConfigGeneral.h */,
+				1F33CAA612E52F9900CC48F9 /* ConfigGeneral.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* NightCam */ = {
+			isa = PBXGroup;
+			children = (
+				1F33CA7012E521B000CC48F9 /* Windows */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = NightCam;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* NightCam_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F29868C12E6718300FC08E1 /* Config.plist */,
+				1FAB04EE12E6448C00AD709B /* icon.icns */,
+				1F246B8112E5928000CED67D /* Capture_Record_off.tif */,
+				1F246B8212E5928000CED67D /* Capture_Record_on.tif */,
+				1F246B8312E5928000CED67D /* Capture_Forward_off.tif */,
+				1F246B8412E5928000CED67D /* Capture_Forward_on.tif */,
+				1F246B8512E5928000CED67D /* Capture_Play_off.tif */,
+				1F246B8612E5928000CED67D /* Capture_Play_on.tif */,
+				1F246B8712E5928000CED67D /* Capture_Rewind_off.tif */,
+				1F246B8812E5928000CED67D /* Capture_Rewind_on.tif */,
+				1F246B8912E5928000CED67D /* Stop_Normal.tif */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* NightCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "NightCam" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightCam;
+			productInstallPath = "$(HOME)/Applications";
+			productName = NightCam;
+			productReference = 8D1107320486CEB800E47090 /* NightCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NightCam" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* NightCam */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* NightCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F29868D12E6718300FC08E1 /* Config.plist in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				1F246B8A12E5928000CED67D /* Capture_Record_off.tif in Resources */,
+				1F246B8B12E5928000CED67D /* Capture_Record_on.tif in Resources */,
+				1F246B8C12E5928000CED67D /* Capture_Forward_off.tif in Resources */,
+				1F246B8D12E5928000CED67D /* Capture_Forward_on.tif in Resources */,
+				1F246B8E12E5928000CED67D /* Capture_Play_off.tif in Resources */,
+				1F246B8F12E5928000CED67D /* Capture_Play_on.tif in Resources */,
+				1F246B9012E5928000CED67D /* Capture_Rewind_off.tif in Resources */,
+				1F246B9112E5928000CED67D /* Capture_Rewind_on.tif in Resources */,
+				1F246B9212E5928000CED67D /* Stop_Normal.tif in Resources */,
+				1FAB04EF12E6448C00AD709B /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				1FCDD2AE12E4D856000D81B9 /* UVCCameraControl.m in Sources */,
+				1FCDD2B312E4D943000D81B9 /* NightCamController.m in Sources */,
+				1F33C7FE12E4FD2B00CC48F9 /* ACGamma.m in Sources */,
+				1F33CA9F12E52B4200CC48F9 /* Config.m in Sources */,
+				1F33CAA712E52F9900CC48F9 /* ConfigGeneral.m in Sources */,
+				1F246D2A12E5B09700CED67D /* AppController.m in Sources */,
+				1F0FDF0112E624BF0088FB1B /* PreferencesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NightCam_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = NightCam;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NightCam_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = NightCam;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "NightCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NightCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
